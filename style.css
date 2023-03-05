@@ -3,9 +3,118 @@
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
+  background-color: lavenderblush;
+}
+
+body {
+  margin: 0;
+}
+
+.nabidka,
+.losos,
+.tagliatelle,
+.melancholie,
+.nabidkafoto,
+.tabulka
+{
+  background-color: #ffffff;
+  margin: 0 100px 0 100px;
 }
 
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
+  margin-top: 0;
+
+}
+
+h3,
+.paticka {
+  text-align: center;
+  padding: 30px 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 0 0 10px 0; 
+  font-size: 2rem;
+}
+
+h4 {
+  text-align: center;
+}
+
+h2 {
+ padding-top: 30px;
+}
+
+.nabidkafoto {
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+.nabidkafoto img {
+  width: 30%;
+  margin: 0 1%;
+}
+
+
+.logo {
+  display: block;
+  margin: 10px auto;
+}
+
+.losos img {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right: 50px;
+}
+
+.tagliatelle img {
+  float: right;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+}
+
+.melancholie img {
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin-right: 50px;
+}
+
+section {
+  padding: 10px 5%;
+  overflow: auto;
+}
+
+td {
+  padding: 20px 0;
+}
+
+.sloupec {
+  padding-left: 50px;
+}
+
+.losos p,
+.melancholie p {
+  padding-right: 70px;
+  padding-left: 30px;
+}
+
+.losos,
+.melancholie {
+  text-align: left;
+}
+
+.tagliatelle p {
+  padding-right: 30px;
+  padding-left: 70px;
+}
+
+.tagliatelle {
+  text-align: right;
 }
