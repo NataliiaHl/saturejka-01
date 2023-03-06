@@ -25,7 +25,6 @@ h1,
 h2 {
   font-family: 'Playfair Display', serif;
   margin-top: 0;
-
 }
 
 h3,
@@ -66,23 +65,20 @@ h2 {
 }
 
 .losos img {
-  width: 300px;
-  height: 300px;
+  width: 30%;
   float: left;
   margin-right: 50px;
 }
 
 .tagliatelle img {
   float: right;
-  width: 300px;
-  height: 300px;
+  width: 30%;
   margin-left: 50px;
 }
 
 .melancholie img {
   float: left;
-  width: 300px;
-  height: 300px;
+  width: 30%;
   margin-right: 50px;
 }
 
@@ -99,22 +95,22 @@ td {
   padding-left: 50px;
 }
 
-.losos p,
-.melancholie p {
-  padding-right: 70px;
-  padding-left: 30px;
-}
-
 .losos,
 .melancholie {
   text-align: left;
-}
-
-.tagliatelle p {
-  padding-right: 30px;
-  padding-left: 70px;
+  padding-right: 200px;
 }
 
 .tagliatelle {
   text-align: right;
+  padding-left: 200px;
 }
+
+h5 {
+  display: inline;
+  background-color: lavenderblush ;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+
